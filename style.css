@@ -1,6 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Texturina:wght@100&display=swap');
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+body {
+  font-family: 'Texturina', serif;
+}
+
+.top {
+  background-image: url(../PageAccueil/src/img/ours.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner {
+  width: 30%;
+  min-width: 200px;
+  background-color: rgba(230, 184, 191, 0.4);
+  padding: 1rem;
+  border-radius: 1rem;
+  text-align: center;
+}
+.inner h1 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+.inner p {
+  line-height: 1.5rem;
+  text-align: left;
+}
+.clickme {
+  display: none;
+}
+
+#bearBtn {
+  cursor: pointer;
+}
