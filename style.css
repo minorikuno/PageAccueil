@@ -23,24 +23,25 @@ body {
   align-items: center;
 }
 
-.inner {
-  width: 30%;
+#inner {
+  width: 40%;
   min-width: 200px;
-  background-color: rgba(230, 184, 191, 0.4);
+  background-color: rgba(230, 184, 191, 0.5);
   padding: 1rem;
   border-radius: 1rem;
   text-align: center;
 }
-.inner h1 {
+#inner h1 {
   text-align: center;
   margin-bottom: 10px;
 }
-.inner p {
+#inner p {
   line-height: 1.5rem;
   text-align: left;
 }
-.clickme {
-  display: none;
+.me {
+
+  transition: all 1s;
 }
 
 #bearBtn {
